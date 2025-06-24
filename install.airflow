@@ -28,3 +28,6 @@ airflow scheduler
 Terminal 2 – Webserver :
 source ~/airflow/venv/bin/activate
 airflow webserver --port 8080
+
+rm ~/airflow/airflow.db
+
