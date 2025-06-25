@@ -39,6 +39,14 @@ Un opérateur représente **le type de tâche** :
 
 ### 2.4 Scheduler
 C’est le **planificateur** qui exécute les DAGs selon un calendrier défini (`@daily`, `@hourly`, etc.).
+"@once" : une seule exécution
+
+-"@daily" : une fois par jour
+
+'"@hourly" : une fois par heure
+
+-"0 12 * * *" : tous les jours à midi (format CRON)
+
 
 ### 2.5 Executor
 C’est l’**exécuteur** des tâches (localement, en parallèle, via Celery, etc.).
